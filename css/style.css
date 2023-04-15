@@ -105,9 +105,15 @@ h1{
 
 .row1{
     width: 100%;
+    display: flex;
+    justify-content: space-around;
 }
 
 .primo-col-sezione-1{
+    display: flex;
+}
+
+.secondo-col-sezione-1{
     display: flex;
 }
 
@@ -141,18 +147,16 @@ h1{
 
 .row2{
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-around;
     width: 100%;
 }
 
 .primo-col-sezione-2-4{
     display: flex;
-    justify-content: flex-end;
 }
 
 .secondo-col-sezione-2-4{
     display: flex;
-    
 }
 
 
@@ -198,10 +202,6 @@ h1{
     width: 100%;
     display: flex;
     text-align: center;
-}
-
-.stars{
-    display: inline;
 }
 
 .mac{
@@ -290,11 +290,15 @@ li{
 }
 
 .cols3{
-    width: calc(65% / 4);
+    width: calc(68% / 4);
+    display: flex;
+    flex-direction: column;
 }
 
 .title-li{
-    color: rgb(99, 99, 234);;
+    color: rgb(99, 99, 234);
+    display: flex;
+    flex-direction: column;
 }
 
 /* FINE SESTA SEZIONE */
@@ -320,7 +324,7 @@ li{
 }
 
 hr{
-    margin: 0 200px 0 200px;
+    margin: 20px 200px 0 200px;
     border-color: rgb(99, 99, 234);
 }
 
