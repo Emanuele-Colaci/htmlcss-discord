@@ -25,7 +25,6 @@ body{
 .container{
     background-image: url(../img/jumbo.png);
     padding: 10px;
-    background-color: #add8e6;
     padding-top : 20px;
     background-size: cover;
 }
@@ -42,14 +41,14 @@ body{
 
 .secondo-col-sezione{
     width: 40%; 
+    display: flex;
+    justify-content: space-around;
 }
 
 
 .link-header{
-    display: inline;
     text-decoration: none;
     color: white;
-    margin-left: 10px;
 }
 
 .button-header{
@@ -73,16 +72,17 @@ h1{
     margin: 0 20% 0 20%;
 }
 
+.container-button-header{
+    display: flex;
+    justify-content: center;
+}
+
 .button-white, .button-black{
     padding: 5px 20px;
     border-radius: 50px;
     border: none;
     margin-top: 20px;
     margin-bottom: 100px;
-}
-
-.button-white{
-    margin-left: 38%;
 }
 
 #arrow{
@@ -186,36 +186,34 @@ h1{
 /* INIZIO QUARTA SEZIONE */
 .container4{
     display: flex;
-    justify-content: center;
+    text-align: center;
     padding: 15px;
     background-color: rgb(228, 228, 228);
     background-size: contain;
 }
 
-.primo-col-sezione-4{
+.row4{
     width: 100%;
+}
+
+.primo-col-sezione-4{
     display: flex;
     flex-direction: column;
 }
 
-.row4{
-    width: 100%;
+.seconda-col-sezione-4{
     display: flex;
-    text-align: center;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 100px;
 }
 
 .mac{
-    margin-left: 550px;
-    margin-right: 530px;
-    margin-top: 20px;
-    margin-bottom: 100px;
-    display: flex;
     padding: 10px;
     border: none;
     background-color: rgb(99, 99, 234);
     color: white;
     border-radius: 50px;
-    text-align: center;
 }
 
 .arrow2{
