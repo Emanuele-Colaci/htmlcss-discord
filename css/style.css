@@ -21,12 +21,24 @@ body{
     display: flex;
 }
 
+.background{
+   background-color: rgb(228, 228, 228);
+}
+
 /* INIZIO HEADER */
-.container{
+header{
     background-image: url(../img/jumbo.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.container{
     padding: 10px;
     padding-top : 20px;
-    background-size: cover;
+    width: 100%;
+    max-width: 1170px;
+    margin: 0 auto;
 }
 
 .row{
@@ -35,12 +47,7 @@ body{
     width: 100%;
 }
 
-.primo-col-sezione .terzo-col-sezione{
-    width: 30%; 
-}
-
-.secondo-col-sezione{
-    width: 40%; 
+.secondo-col-sezione{ 
     display: flex;
     justify-content: space-around;
 }
@@ -49,6 +56,7 @@ body{
 .link-header{
     text-decoration: none;
     color: white;
+    margin-left: 20px;
 }
 
 .button-header{
@@ -101,6 +109,8 @@ h1{
 /* INIZIO PRIMA SEZIONE */
 .container1{
     padding: 15px;
+    max-width: 1170px;
+    margin: 0 auto;
 }
 
 .row1{
@@ -111,6 +121,7 @@ h1{
 
 .primo-col-sezione-1{
     display: flex;
+
 }
 
 .secondo-col-sezione-1{
@@ -121,11 +132,6 @@ h1{
     display: flex;
     align-self: center;
     flex-direction: column;
-}
-
-.text-h2, .text-p{
-    margin-left: 150px;
-    margin-right: 150px;
 }
 
 .text-h2{
@@ -143,6 +149,8 @@ h1{
 .container2{
     padding: 15px;
     background-color: rgb(228, 228, 228);
+    max-width: 1170px;
+    margin: 0 auto;
 }
 
 .row2{
@@ -166,11 +174,13 @@ h1{
 .container3{
     padding: 15px;
     width: 100%;
+    max-width: 1170px;
+    margin: 0 auto;
 }
 
 .row3{
     width: 100%;
-    justify-content: space-around;
+    justify-content: center;
     display: flex;
     align-items: center;
 }
@@ -188,17 +198,12 @@ h1{
     display: flex;
     text-align: center;
     padding: 15px;
-    background-color: rgb(228, 228, 228);
-    background-size: contain;
+    max-width: 1170px;
+    margin: 0 auto;
 }
 
 .row4{
     width: 100%;
-}
-
-.primo-col-sezione-4{
-    display: flex;
-    flex-direction: column;
 }
 
 .seconda-col-sezione-4{
@@ -234,10 +239,11 @@ footer{
 .container6{
     display: flex;
     justify-content: center;
-    height: 350px;
     padding: 15px;
     padding-top: 50px;
     padding-bottom: 100px;
+    max-width: 1170px;
+    margin: 0 auto;
 }
 
 .h2-footer{
@@ -280,8 +286,8 @@ li{
     display: flex;
     justify-content: space-between;
     width: 60%;
+    
 }
-
 
 .primo-col-sezione-6{
     width: 28%;
@@ -305,6 +311,8 @@ li{
     padding-top: 10px;
     background-color: #23272a;
     padding-bottom: 100px;
+    max-width: 1170px;
+    margin: 0 auto;
 }
 
 .row6{
