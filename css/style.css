@@ -108,7 +108,6 @@ h1{
 
 /* INIZIO PRIMA SEZIONE */
 .container1{
-    padding: 15px;
     max-width: 1170px;
     margin: 0 auto;
 }
@@ -121,7 +120,6 @@ h1{
 
 .primo-col-sezione-1{
     display: flex;
-
 }
 
 .secondo-col-sezione-1{
@@ -147,7 +145,6 @@ h1{
 
 /* INIZIO SECONDA E QUARTA SEZIONE */
 .container2{
-    padding: 15px;
     background-color: rgb(228, 228, 228);
     max-width: 1170px;
     margin: 0 auto;
@@ -159,7 +156,7 @@ h1{
     width: 100%;
 }
 
-.primo-col-sezione-2-4{
+.primo-col-sezione-2-4 {
     display: flex;
 }
 
@@ -172,8 +169,6 @@ h1{
 
 /* INIZIO TERZA SEZIONE */
 .container3{
-    padding: 15px;
-    width: 100%;
     max-width: 1170px;
     margin: 0 auto;
 }
@@ -183,11 +178,6 @@ h1{
     justify-content: center;
     display: flex;
     align-items: center;
-}
-
-.seconda-col-sezione-3{
-    width: 100%;
-    margin-top: 150px;
 }
 
 
@@ -239,7 +229,6 @@ footer{
 .container6{
     display: flex;
     justify-content: center;
-    padding: 15px;
     padding-top: 50px;
     padding-bottom: 100px;
     max-width: 1170px;
@@ -248,25 +237,6 @@ footer{
 
 .h2-footer{
     color: rgb(99, 99, 234);
-}
-
-.italiano{
-    height: 100%;
-    margin-left: 3px;
-    color: white;
-    font-size: 10px;
-}
-
-.arrow1{
-    font-size: 5px;
-}
-
-.ita{
-    display: inline-block;
-    margin: 15px 0 15px 0;
-    width: 20px;
-    vertical-align: middle;
-    height: 100%;
 }
 
 ul{
@@ -284,17 +254,16 @@ li{
 
 .row5{
     display: flex;
-    justify-content: space-between;
-    width: 60%;
-    
+    justify-content: space-around;
+    width: 100%;
 }
 
 .primo-col-sezione-6{
-    width: 28%;
+    width: 20%;
 }
 
 .cols3{
-    width: calc(68% / 4);
+    width: calc(43% / 4);
     display: flex;
     flex-direction: column;
 }
@@ -321,16 +290,33 @@ li{
     width: 100%;
 }
 
+.italiano{
+    height: 100%;
+    margin-left: 3px;
+    color: white;
+    font-size: 10px;
+}
+
+.arrow1{
+    font-size: 5px;
+}
+
+.ita{
+    display: inline-block;
+    margin: 15px 0 15px 0;
+    width: 20px;
+    vertical-align: middle;
+    height: 100%;
+}
+
 .primo-col-sezione-7{
     display: flex;
     justify-content: space-between;
     width: 100%;
-    margin-left: 200px;
-    margin-right: 200px;
 }
 
 hr{
-    margin: 20px 200px 0 200px;
+    margin-bottom: 20px ;
     border-color: rgb(99, 99, 234);
 }
 
